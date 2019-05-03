@@ -1,0 +1,166 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(31, 202, 188);
+  background: radial-gradient(circle, #43698d 0%, #0a121b 100%);
+  font-family: "Montserrat", sans-serif;
+}
+
+#container {
+  max-width: 960px;
+  margin: 0 auto 20px;
+  padding: 20px 40px;
+}
+
+/* Navigation Styles */
+
+header {
+  margin-bottom: 20px;
+}
+
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+}
+
+nav {
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+
+ul {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 15px;
+  color: white;
+}
+
+/* Main Body */
+
+main {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 40px;
+  color: #5dbcd2;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.profile-pic {
+  width: 300px;
+  margin: 30px auto;
+}
+
+#description {
+  max-width: 400px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+#resume {
+  text-align: left;
+  color: #fff;
+}
+
+/* Contact */
+
+#contact {
+  text-align: left;
+  font-size: 20px;
+}
+
+#contact h2 {
+  color: #5dbcd2;
+}
+
+.contact-info {
+  color: white;
+}
+
+/* Social Links */
+
+#social {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.social-link {
+  display: list-item;
+  line-height: 30px;
+}
+
+.social-link a {
+  padding-left: 30px;
+  background-repeat: no-repeat;
+}
+
+li a[href*="facebook"] {
+  background-image: url("../img/icon_fb.png");
+}
+
+li a[href*="instagram"] {
+  background-image: url("../img/icon_insta.png");
+}
+
+li a[href*="vimeo"] {
+  background-image: url("../img/icon_vimeo.png");
+}
+
+li a[href*="youtube"] {
+  background-image: url("../img/icon_yt.png");
+}
+
+/* Link Styles */
+
+a.active-nav,
+a.active-nav:visited {
+  color: rgb(31, 202, 188);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: rgb(255, 84, 0);
+  text-decoration: underline;
+}
+
+/* Make videos responsive - https://www.ostraining.com/blog/coding/responsive-videos/ */
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

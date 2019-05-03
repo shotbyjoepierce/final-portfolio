@@ -1,0 +1,22 @@
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.skills {
+  text-align: left;
+  font-size: 16px;
+}
+
+.skills li {
+  list-style: url("../img/star.png");
+  display: list-item;
+}
+
+h2 {
+  color: rgb(31, 202, 188);
+}
+
+h3 {
+  color: #5dbcd2;
+}

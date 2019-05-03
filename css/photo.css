@@ -1,0 +1,34 @@
+main {
+  padding: 20px 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#photo-grid {
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+}
+
+.thumb {
+  cursor: pointer;
+  width: 100%;
+  overflow: hidden;
+  transform: scale(1);
+  transition: all 1s linear;
+  background-color: black;
+}
+
+.thumb img {
+  width: 100%;
+  transform: scale(1);
+  transition: all 1s linear;
+}
+
+.thumb:hover img {
+  transform: scale(1.25);
+  transition: all 1s linear;
+}
